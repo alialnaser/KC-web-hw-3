@@ -2,6 +2,7 @@ console.log("hello");
 
 function log1() {
     console.log(7);
+    console.log('rainbow six siege 7KD');
   };
 
   function log2() {
@@ -24,3 +25,16 @@ function log1() {
     console.log(6);
   };
 
+
+
+      
+  function hello() {
+    let input = document.getElementById("input");
+    console.log(input.value);
+
+    let list = document.getElementById("list");
+     list.innerHTML = `
+          <li>${"6 KD"}</1i>
+    `;
+    input.value = "";
+  }

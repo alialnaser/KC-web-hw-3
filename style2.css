@@ -145,3 +145,11 @@ body{
     box-shadow: 5px 5px gray ;
     cursor: crosshair;
     }
+
+    #listdiv {
+      background-color: #2980b9;
+      border: black solid 5px;
+      height: 300px;
+      margin: auto; 
+      margin-top: 70px;
+    }
