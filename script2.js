@@ -1,28 +1,41 @@
 console.log("hello");
 
+let list = document.getElementById("list");
+
 function log1() {
-    console.log(7);
-    console.log('rainbow six siege 7KD');
+  list.innerHTML += `
+  <li>${"Rainbow Six Siege : 7 KD"}</1i>
+`;
   };
 
   function log2() {
-    console.log(5);
+    list.innerHTML += `
+          <li>${"OverWatch : 5 KD"}</1i>
+    `;
   };
 
   function log3() {
-    console.log(6);
+    list.innerHTML += `
+          <li>${"Apex Legends : 6 KD"}</1i>
+    `;
   };
 
   function log4() {
-    console.log(5);
+    list.innerHTML += `
+          <li>${"MineCraft : 5 KD"}</1i>
+    `;
   };
 
   function log5() {
-    console.log(6);
+    list.innerHTML += `
+    <li>${"Fifa 22 : 6 KD"}</1i>
+`;
   };
 
   function log6() {
-    console.log(6);
+    list.innerHTML += `
+          <li>${"GTA V : 6 KD"}</1i>
+    `;
   };
 
 
@@ -38,3 +51,7 @@ function log1() {
     `;
     input.value = "";
   }
+
+  let listdiv = document.getElementById("firstdiv");
+
+  
