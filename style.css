@@ -1,10 +1,10 @@
 body{
-   background-color: aliceblue;
+   background-color: #022C43;
    margin: 0%;
 }
 
 header{
-    background-color: #FF5722;
+    background-color: #115173;
     padding: 20px;
   color: white;
   font-size: 15px;
@@ -14,12 +14,18 @@ header{
   z-index: 2;
 }
 
+.link{
+  text-decoration: none;
+  color: #45a049;
+}
+
+
 #about{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-color: #053F5E;
     border: black solid;
     padding: 200px;
     margin-top: 400px;
@@ -32,7 +38,7 @@ header{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: brown;
+    background-color: #363062;
     border: black solid;
     padding: 200px;
     margin-top: 400px;
